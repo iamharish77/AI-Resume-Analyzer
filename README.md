@@ -4,31 +4,36 @@ An AI-powered full-stack web application that analyzes resumes, evaluates ATS co
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
-### 📄 Resume Analysis
+## 📄 Resume Analysis
+
 - Upload resume in PDF format
 - Extract resume text automatically
 - Analyze resume content using AI
 - Generate ATS compatibility score
 
-### 🎯 ATS Score Evaluation
+## 🎯 ATS Score Evaluation
+
 - Resume quality evaluation
 - Skill matching analysis
 - Identify missing skills
 - Provide improvement suggestions
 
-### 💡 AI Resume Suggestions
+## 💡 AI Resume Suggestions
+
 - Resume improvement recommendations
 - Skill gap identification
 - Career improvement tips
 
-### 🎤 Interview Preparation
+## 🎤 Interview Preparation
+
 - Generate interview questions based on resume
 - Technical interview preparation
 - Practice interview scenarios
 
-### 🔐 User Management
+## 🔐 User Management
+
 - User registration
 - User data management
 - Secure REST API communication
@@ -38,6 +43,7 @@ An AI-powered full-stack web application that analyzes resumes, evaluates ATS co
 # 🛠️ Tech Stack
 
 ## Backend
+
 - Java
 - Spring Boot
 - Spring Data JPA
@@ -46,6 +52,7 @@ An AI-powered full-stack web application that analyzes resumes, evaluates ATS co
 - Apache PDFBox
 
 ## Frontend
+
 - React.js
 - JavaScript
 - HTML5
@@ -53,9 +60,11 @@ An AI-powered full-stack web application that analyzes resumes, evaluates ATS co
 - Vite
 
 ## AI Integration
+
 - OpenAI API
 
 ## Tools
+
 - IntelliJ IDEA
 - Visual Studio Code
 - Git & GitHub
@@ -108,7 +117,7 @@ AI-Resume-Analyzer
 
 # ⚙️ Installation & Setup
 
-## Backend
+## Backend Setup
 
 Clone the repository:
 
@@ -116,25 +125,25 @@ Clone the repository:
 git clone https://github.com/iamharish77/AI-Resume-Analyzer.git
 ```
 
-Navigate to the backend:
+Navigate to backend:
 
 ```bash
 cd resume-analyzer
 ```
 
-Configure the database in:
+Configure MySQL database:
 
 ```text
 src/main/resources/application.properties
 ```
 
-Set your OpenAI API key as an environment variable:
+Add OpenAI API key:
 
 ```text
 OPENAI_API_KEY=your_api_key
 ```
 
-Run the backend:
+Run Spring Boot application:
 
 ```bash
 mvn spring-boot:run
@@ -142,9 +151,9 @@ mvn spring-boot:run
 
 ---
 
-## Frontend
+## Frontend Setup
 
-Navigate to the frontend:
+Navigate to frontend:
 
 ```bash
 cd resume-analyzer-frontend
@@ -156,7 +165,7 @@ Install dependencies:
 npm install
 ```
 
-Run the application:
+Run React application:
 
 ```bash
 npm run dev
@@ -178,7 +187,7 @@ npm run dev
 
 ---
 
-## 🎤 Interview Preparation
+## 🎤 Interview Preparation Page
 
 ![Interview Preparation](screenshots/interview%20preparation.png)
 
@@ -206,4 +215,6 @@ npm run dev
 
 Java Full Stack Developer
 
-GitHub: https://github.com/iamharish77
+GitHub:
+
+https://github.com/iamharish77
