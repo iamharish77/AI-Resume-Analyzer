@@ -1,5 +1,12 @@
 # 🤖 AI-Powered Resume Analyzer & Interview Preparation Platform
 
+![Java](https://img.shields.io/badge/Java-25-orange)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4-green)
+![React](https://img.shields.io/badge/React-JS-blue)
+![MySQL](https://img.shields.io/badge/MySQL-Database-blue)
+![OpenAI](https://img.shields.io/badge/AI-OpenAI-black)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 An AI-powered full-stack web application that analyzes resumes, evaluates ATS compatibility, identifies skills, provides improvement suggestions, and generates interview questions to help candidates prepare for job opportunities.
 
 ---
