@@ -25,3 +25,6 @@ Thumbs.db
 
 # Ignore application secrets
 resume-analyzer/src/main/resources/application.properties
+
+# Uploaded resume files
+resume-analyzer/uploads/
