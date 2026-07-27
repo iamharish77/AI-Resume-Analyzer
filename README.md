@@ -65,19 +65,19 @@ An AI-powered full-stack web application that analyzes resumes, evaluates ATS co
 
 # 🏗️ Architecture
 
-```
+```text
 React Frontend
-        |
-        |
+        │
+        ▼
      REST APIs
-        |
-        |
+        │
+        ▼
 Spring Boot Backend
-        |
-        |
+        │
+        ▼
       MySQL
-        |
-        |
+        │
+        ▼
 AI Resume Analysis Engine
 ```
 
@@ -85,9 +85,9 @@ AI Resume Analysis Engine
 
 # 📂 Project Structure
 
-```
+```text
 AI-Resume-Analyzer
-
+│
 ├── resume-analyzer
 │   ├── controller
 │   ├── service
@@ -95,18 +95,20 @@ AI-Resume-Analyzer
 │   ├── entity
 │   └── config
 │
-└── resume-analyzer-frontend
-    ├── components
-    ├── api
-    ├── assets
-    └── pages
+├── resume-analyzer-frontend
+│   ├── components
+│   ├── api
+│   ├── assets
+│   └── pages
+│
+└── screenshots
 ```
 
 ---
 
 # ⚙️ Installation & Setup
 
-## Backend Setup
+## Backend
 
 Clone the repository:
 
@@ -114,25 +116,25 @@ Clone the repository:
 git clone https://github.com/iamharish77/AI-Resume-Analyzer.git
 ```
 
-Navigate to backend:
+Navigate to the backend:
 
 ```bash
 cd resume-analyzer
 ```
 
-Configure MySQL database in:
+Configure the database in:
 
-```
+```text
 src/main/resources/application.properties
 ```
 
-Add your OpenAI API key using environment variables:
+Set your OpenAI API key as an environment variable:
 
-```
+```text
 OPENAI_API_KEY=your_api_key
 ```
 
-Run Spring Boot application:
+Run the backend:
 
 ```bash
 mvn spring-boot:run
@@ -140,9 +142,9 @@ mvn spring-boot:run
 
 ---
 
-## Frontend Setup
+## Frontend
 
-Navigate to frontend:
+Navigate to the frontend:
 
 ```bash
 cd resume-analyzer-frontend
@@ -154,7 +156,7 @@ Install dependencies:
 npm install
 ```
 
-Run React application:
+Run the application:
 
 ```bash
 npm run dev
@@ -164,12 +166,27 @@ npm run dev
 
 # 📸 Screenshots
 
-(Add screenshots of your application here)
+## 🏠 Home Page
 
-- Home Page
-- Resume Upload Page
-- ATS Score Dashboard
-- Interview Preparation Page
+![Home Page](screenshots/home.png)
+
+---
+
+## 📄 Resume Upload Page
+
+![Resume Upload](screenshots/upload.png)
+
+---
+
+## 🎤 Interview Preparation
+
+![Interview Preparation](screenshots/interview%20preparation.png)
+
+---
+
+## ℹ️ About Page
+
+![About Page](screenshots/about.png)
 
 ---
 
@@ -189,5 +206,4 @@ npm run dev
 
 Java Full Stack Developer
 
-GitHub:
-https://github.com/iamharish77
+GitHub: https://github.com/iamharish77
