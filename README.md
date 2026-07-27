@@ -161,16 +161,29 @@ npm run dev
 ```
 
 ---
+## 📸 Screenshots
 
-# 📸 Screenshots
+### 🏠 Home Page
 
-(Add screenshots of your application here)
+![Home Page](screenshots/home.png)
 
-- Home Page
-- Resume Upload Page
-- ATS Score Dashboard
-- Interview Preparation Page
+---
 
+### 📄 Resume Upload Page
+
+![Resume Upload](screenshots/upload.png)
+
+---
+
+### 🎤 Interview Preparation Page
+
+![Interview Preparation](screenshots/interview%20preparation.png)
+
+---
+
+### ℹ️ About Page
+
+![About Page](screenshots/about.png)
 ---
 
 # 🔮 Future Enhancements
