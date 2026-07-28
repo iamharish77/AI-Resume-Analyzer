@@ -6,7 +6,6 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -24,9 +23,7 @@
 
 
 	<properties>
-
 		<java.version>25</java.version>
-
 	</properties>
 
 
@@ -47,7 +44,7 @@
 		</dependency>
 
 
-		<!-- MySQL Database -->
+		<!-- MySQL -->
 		<dependency>
 			<groupId>com.mysql</groupId>
 			<artifactId>mysql-connector-j</artifactId>
@@ -69,15 +66,16 @@
 		</dependency>
 
 
-		<!-- Lombok -->
+		<!-- Lombok FIXED -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<optional>true</optional>
+			<version>1.18.42</version>
+			<scope>provided</scope>
 		</dependency>
 
 
-		<!-- PDF Text Extraction -->
+		<!-- PDF Extraction -->
 		<dependency>
 			<groupId>org.apache.pdfbox</groupId>
 			<artifactId>pdfbox</artifactId>
@@ -85,7 +83,7 @@
 		</dependency>
 
 
-		<!-- Spring Boot DevTools -->
+		<!-- Dev Tools -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
@@ -110,15 +108,31 @@
 
 		<plugins>
 
+
+			<!-- Spring Boot Plugin -->
 			<plugin>
-
 				<groupId>org.springframework.boot</groupId>
-
 				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+
+
+			<!-- Compiler -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.13.0</version>
+
+				<configuration>
+
+					<release>25</release>
+
+				</configuration>
 
 			</plugin>
 
+
 		</plugins>
+
 
 	</build>
 
