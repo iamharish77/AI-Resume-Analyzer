@@ -1,8 +1,6 @@
 import axios from "axios";
 
-
-const API_URL = "http://localhost:8080/api/interview";
-
+const API_URL = "https://ai-resume-analyzer-backend-pa3i.onrender.com/api/interview";
 
 export const evaluateAnswer = (data) => {
 

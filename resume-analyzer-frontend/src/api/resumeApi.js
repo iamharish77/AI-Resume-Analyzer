@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8080/api/resume";
+const API_URL = "https://ai-resume-analyzer-backend-pa3i.onrender.com/api/resume";
 
 export const uploadResume = (file) => {
 
