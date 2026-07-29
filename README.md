@@ -225,3 +225,7 @@ Java Full Stack Developer
 GitHub:
 
 https://github.com/iamharish77
+
+Likedin:
+
+https://www.linkedin.com/in/iamharish77/
